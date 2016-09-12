@@ -3,19 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dadojogo;
 
 /**
  *
- * @author 31417485
+ * @author 41526295
  */
-public class DadoJogo {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Principal {
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Jogo meujogo = new Jogo();
+        meujogo.jogar();
+        meujogo.apresentarResultado();
     }
+    
     
 }
